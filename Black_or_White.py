@@ -7,6 +7,8 @@ while True:
         break
     print("Input cannot be empty. Please try again.")
 
+chessfield = chessfield.lower()
+
 try:
     if chessfield[0] in letters and int(chessfield[1]) in numbers:
         chessfield0 = letters.get(chessfield[0])
